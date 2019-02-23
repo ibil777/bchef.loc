@@ -360,7 +360,7 @@ a.nav-link.active:hover {
 }
 #fp .lastNew::after {
     background: #ffc813;
-    bottom: 0px;
+    bottom: 0;
     content: '';
     left: 0;
     opacity: 0.8;
@@ -659,7 +659,7 @@ body.krock {
 .krock #slider .flickity-page-dots .dot.is-selected {
     background: #ff0000;
 }
-krock #article {
+.krock #article {
     border-top: 4px solid #ff0000;
     padding-top: 2rem;
 }
@@ -702,60 +702,6 @@ krock #article {
     position: absolute;
     text-align: center;
 }
-/*.krock #arcive .arcList>div:nth-child(1) .img {
-    border: 8px solid #1b4f7f;
-}
-.krock #arcive .arcList>div:nth-child(1) span {
-    background: #1b4f7f;
-}
-.krock #arcive .arcList>div:nth-child(2) .img {
-    border: 8px solid #ff8c8c;
-}
-.krock #arcive .arcList>div:nth-child(2) span {
-    background: #ff8c8c;
-}
-.krock #arcive .arcList>div:nth-child(3) .img {
-    border: 8px solid #b77723;
-}
-.krock #arcive .arcList>div:nth-child(3) span {
-    background: #b77723;
-}
-.krock #arcive .arcList>div:nth-child(4) .img {
-    border: 8px solid #aebc12;
-}
-.krock #arcive .arcList>div:nth-child(4) span {
-    background: #aebc12;
-}
-.krock #arcive .arcList>div:nth-child(5) .img {
-    border: 8px solid #0d2691;
-}
-.krock #arcive .arcList>div:nth-child(5) span {
-    background: #0d2691;
-}
-.krock #arcive .arcList>div:nth-child(6) .img {
-    border: 8px solid #3e5b19;
-}
-.krock #arcive .arcList>div:nth-child(6) span {
-    background: #3e5b19;
-}
-.krock #arcive .arcList>div:nth-child(7) .img {
-    border: 8px solid #ba00ff;
-}
-.krock #arcive .arcList>div:nth-child(7) span {
-    background: #ba00ff;
-}
-.krock #arcive .arcList>div:nth-child(8) .img {
-    border: 8px solid #54776f;
-}
-.krock #arcive .arcList>div:nth-child(8) span {
-    background: #54776f;
-}
-.krock #arcive .arcList>div:nth-child(9) .img {
-    border: 8px solid #b3461a;
-}
-.krock #arcive .arcList>div:nth-child(9) span {
-    background: #b3461a;
-}*/
 .krock #footer {
     background: linear-gradient(to top, #191942, #010117);
     border-top: 4px solid #ff0000;
