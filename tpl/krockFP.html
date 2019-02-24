@@ -17,30 +17,38 @@
 </head>
 
 <body id="krockFp" class="krock container-fluid">
-<section id="header" class="row header">
+<section id="header" class="row header sticky-top">
     <div class="container-fluid">
-        <div class="fixed-top row justify-content-between">
-            <div class="col-2">
-                <div class="logo"><img src="../images/logoKrock.png" alt="logo"></div>
+        <div class="row">
+            <div class="col-3">
+                <div class="logo"><img src="../images/logoTop.png" alt="logo"></div>
             </div>
             <!-- main menu -->
-            <div class="col-7 d-flex justify-content-end" role="navigation">
-                <ul id="mainMenu" class="nav align-items-center justify-content-end">
-                    <li class="nav-item col-4">
-                        <a class="nav-link" href="#">волонтерам</a>
+            <div class="col-7" role="navigation">
+                <ul id="mainMenu" class="nav align-items-center justify-content-center">
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="#">про форум</a>
                     </li>
-                    <li class="nav-item col-4">
-                        <a class="nav-link" href="#">спонсорам</a>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="#">новини</a>
                     </li>
-                    <li class="nav-item col-4">
-                        <a class="nav-link" href="#">правила</a>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="#">фото</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="#">відео</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="#">партнерство</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="#">
+                            <img src="../images/krok_menu.png" alt="">
+                        </a>
                     </li>
                 </ul>
             </div>
             <!-- /main menu -->
-            <div class="logoForum col-1 d-flex">
-                    <a href="#"><img src="../images/logoCircle.png" alt=""></a>
-            </div>
             <div class="switchLang col-2">
                 <div class="row">
                     <div class="col-12">
@@ -54,28 +62,15 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="container">
-                <div class="row">
-                    <div class="logoKrock col-8">
-                        <img src="../images/logoKrock.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <section id="slider" class="row">
-    <div class="container">
-        <div class="row">
     <div class="flickitySlider">
         <div class="fSlide">
             <img src="../images/krockSlide01.jpg" alt="slide1">
         </div>
         <div class="fSlide">
             <img src="../images/krockSlide02.jpg" alt="slide2">
-        </div>
-    </div>
         </div>
     </div>
 </section>
@@ -209,16 +204,6 @@
             freeScroll: true,
             wrapAround: true,
             pageDots: true
-        });
-        $(window).scroll(function() {
-            var height = $(window).scrollTop();
-            /*Если сделали скролл на 40px задаём новый класс для header*/
-            if(height > 40){
-                $('.fixed-top').addClass('header-bg');
-            } else{
-                /*Если меньше 40px удаляем класс для header*/
-                $('.fixed-top').removeClass('header-bg');
-            }
         });
     });
 </script>

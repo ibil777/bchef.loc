@@ -17,13 +17,6 @@
     url('../fonts/robotobold-webfont.svg#robotobold') format('svg');
 }
 @font-face {
-    font-family: 'pfScandalProBlack';
-    src: url('../fonts/pfscandalpro-black-webfont.woff2') format('woff2'),
-    url('../fonts/pfscandalpro-black-webfont.woff') format('woff'),
-    url('../fonts/pfscandalpro-black-webfont.ttf') format('truetype'),
-    url('../fonts/pfscandalpro-black-webfont.svg#pf_scandal_problack') format('svg');
-}
-@font-face {
     font-family: 'summerBold';
     src: url('../fonts/summer_font_bold-webfont.eot');
     src: url('../fonts/summer_font_bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -607,34 +600,9 @@ body.krock {
     background-attachment: fixed;
     color: #999999;
 }
-.krock #header {
-    background: none;
-    height: 123px;
-}
-#krockFp.krock #header {
-    background: url(../images/krockHeader_bg.jpg) no-repeat top center;
-    height: 400px;
-}
-.krock #header .container-fluid>.row {
-    height: auto;
-}
 .krock #header .logoKrock {
     margin-top: 150px;
     z-index: 10;
-}
-.krock .logo img {
-    margin: auto;
-    padding: 1rem;
-}
-.krock ul#mainMenu>li>a {
-    align-items: center;
-    background: none;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    height: 123px;
-    text-transform: uppercase;
-    width: 123px;
 }
 .krock ul#mainMenu>li>a:hover,.krock ul#mainMenu>li>a.active {
     color: #f00;
@@ -648,11 +616,6 @@ body.krock {
 .krock .switchLang {
     filter: grayscale(100%);
 }
-.krock #slider {
-    background: url(../images/krockSlider_bg.jpg) no-repeat center;
-    background-size: cover;
-    border-top: 4px solid #f00;
-}
 .krock #slider .flickity-page-dots .dot {
     background: #a7a7a8;
 }
@@ -660,7 +623,7 @@ body.krock {
     background: #ff0000;
 }
 .krock #article {
-    border-top: 4px solid #ff0000;
+    border-top: 2px solid #ff0000;
     padding-top: 2rem;
 }
 .krock #article h1 {
@@ -678,7 +641,7 @@ body.krock {
 }
 .krock #arcive .img {
     background-size: cover;
-    border: 8px solid #fff;
+    border: 2px solid #f00;
     height: 350px;
     position: relative;
 }
@@ -691,20 +654,21 @@ body.krock {
     transition: filter 1s;
 }
 .krock #arcive span {
+    background: #f00;
     border-radius: 4px;
     bottom: 0;
     color: #fff;
     display: block;
-    font-family: pfScandalProBlack;
+    font-family: robotobold;
     font-size: 48px;
-    line-height: 1.4rem;
-    padding: 1.7rem 1rem 0.5rem;
+    line-height: 1rem;
+    padding: 1.3rem 1rem 1.1rem;
     position: absolute;
     text-align: center;
 }
 .krock #footer {
     background: linear-gradient(to top, #191942, #010117);
-    border-top: 4px solid #ff0000;
+    border-top: 2px solid #ff0000;
 }
 .krock #footer .row>div:nth-child(2) img,
 .krock #footer .row>div:nth-child(4) img {
