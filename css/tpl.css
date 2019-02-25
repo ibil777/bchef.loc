@@ -596,20 +596,31 @@ input.search_input::placeholder {
 
 /* krock */
 body.krock {
-    background: linear-gradient(to bottom left, #151515, #313131);
+    background: #000000;
     background-attachment: fixed;
     color: #999999;
 }
 .krock .header {
-    background: #333;
+    background: #000;
+    border-bottom: 2px solid #f00;
     height: 160px;
 }
-.krock #header .logoKrock {
-    margin-top: 150px;
-    z-index: 10;
+.krock #header .logo img {
+    margin: auto;
+    padding-bottom: 10px;
+    width: 120%;
+}
+.krock #header ul#mainMenu {
+    padding-right: 2rem;
 }
 .krock #header ul#mainMenu>li>a {
     filter: grayscale(100%);
+}
+.krock #header ul#mainMenu>li:last-child>a {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    padding-top: 4px;
+    text-align: center;
 }
 .krock ul#mainMenu>li>a:hover,.krock ul#mainMenu>li>a.active {
     color: #ccc;
