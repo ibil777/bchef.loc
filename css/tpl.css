@@ -696,3 +696,6 @@ body.krock {
 .krock #footer input.search_input {
     background: #CDCDCD;
 }
+.krock #footer .socIcon img {
+    filter: grayscale(0) !important;
+}
