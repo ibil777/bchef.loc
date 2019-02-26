@@ -580,6 +580,9 @@ input.search_input::placeholder {
 }
 
 /* krock */
+.krock h1, .krock h2, .krock h3 {
+    color: #f00;
+}
 body.krock {
     background: #000000;
     background-attachment: fixed;
@@ -630,14 +633,6 @@ body.krock {
 .krock #slider .flickity-page-dots .dot.is-selected {
     background: #ff0000;
 }
-.krock #article {
-    border-top: 2px solid #ff0000;
-    padding-top: 2rem;
-}
-.krock #article p {
-    font-size: 36px;
-    text-align: justify;
-}
 .krock a {
     color: #f00;
 }
@@ -673,14 +668,36 @@ body.krock {
     text-align: center;
 }
 .krock #arcive h1 {
-    color: #f00;
     margin-top: -2rem;
+}
+.krock #article {
+    border-top: 2px solid #ff0000;
+    padding-top: 2rem;
+}
+.krock #article p {
+    text-align: justify;
 }
 .krock #article .nav-tabs .nav-link.active {
     background: none;
 }
 .krock #article a.nav-link.active {
     color: #ffffff !important;
+}
+.krock #article .participants {
+    margin-bottom: 2rem;
+}
+.participants>div {
+    align-items: center;
+    display: flex;
+}
+.participants>div>img {
+    margin: auto !important;
+}
+.krock #nav-tabContent .card {
+    background: none;
+}
+.krock #nav-tabContent .card .img{
+    height: 253px;
 }
 .krock #footer {
     background: #000;
