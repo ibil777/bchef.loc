@@ -16,15 +16,6 @@
     url('../fonts/robotobold-webfont.ttf') format('truetype'),
     url('../fonts/robotobold-webfont.svg#robotobold') format('svg');
 }
-@font-face {
-    font-family: 'summerBold';
-    src: url('../fonts/summer_font_bold-webfont.eot');
-    src: url('../fonts/summer_font_bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/summer_font_bold-webfont.woff2') format('woff2'),
-    url('../fonts/summer_font_bold-webfont.woff') format('woff'),
-    url('../fonts/summer_font_bold-webfont.ttf') format('truetype'),
-    url('../fonts/summer_font_bold-webfont.svg#summer_fontbold') format('svg');
-}
 
 body {
     color: #222;
@@ -494,12 +485,6 @@ a.nav-link.active:hover {
 .listNews .card a {
     float: right;
 }
-/*
-#new .date {
-    background: #ffc813;
-    padding: 0.5rem 1rem;
-}
-*/
 #article button {
     border-radius: 0;
 }
@@ -645,26 +630,17 @@ body.krock {
 .krock #slider .flickity-page-dots .dot.is-selected {
     background: #ff0000;
 }
-
-/*.krock #article {
+.krock #article {
     border-top: 2px solid #ff0000;
     padding-top: 2rem;
 }
-.krock .articleFp {
-    border: 1px solid #f00;
-    border-radius: 1rem;
-    padding: 1rem 3rem;
-}
-.krock #article h1 {
-    color: #f00;
-    font-family: pfScandalProBlack;
-    font-size: 70px;
-}
 .krock #article p {
-    font-family: summerBold;
     font-size: 36px;
     text-align: justify;
-}*/
+}
+.krock a {
+    color: #f00;
+}
 .krock #arcive {
     border-top: 2px solid #f00;
     padding: 4rem 0;
@@ -680,7 +656,7 @@ body.krock {
     justify-content: center;
 }
 .krock #arcive a:hover .img {
-    filter: blur(2px);
+    filter: grayscale(70%);
     transition: filter 1s;
 }
 .krock #arcive span {
@@ -695,6 +671,16 @@ body.krock {
     padding: 1.3rem 1rem 1.1rem;
     position: absolute;
     text-align: center;
+}
+.krock #arcive h1 {
+    color: #f00;
+    margin-top: -2rem;
+}
+.krock #article .nav-tabs .nav-link.active {
+    background: none;
+}
+.krock #article a.nav-link.active {
+    color: #ffffff !important;
 }
 .krock #footer {
     background: #000;
