@@ -581,7 +581,7 @@ input.search_input::placeholder {
 
 /* krock */
 .krock h1, .krock h2, .krock h3 {
-    color: #f00;
+    color: #ccc;
 }
 body.krock {
     background: #000000;
@@ -590,7 +590,7 @@ body.krock {
 }
 .krock .header {
     background: #000;
-    border-bottom: 2px solid #f00;
+    border-bottom: 2px solid #ccc;
     height: 160px;
 }
 .krock #header .logo img {
@@ -634,15 +634,15 @@ body.krock {
     background: #ff0000;
 }
 .krock a {
-    color: #f00;
+    color: #ccc;
 }
 .krock #arcive {
-    border-top: 2px solid #f00;
+    border-top: 2px solid #ccc;
     padding: 4rem 0;
 }
 .krock #arcive .img {
     background-size: cover;
-    border: 2px solid #f00;
+    border: 2px solid #ccc;
     height: 350px;
     position: relative;
 }
@@ -655,15 +655,15 @@ body.krock {
     transition: filter 1s;
 }
 .krock #arcive span {
-    background: #f00;
+    background: #ccc;
     border-radius: 4px;
     bottom: 0;
-    color: #fff;
+    color: #333;
     display: block;
     font-family: robotobold;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1rem;
-    padding: 1.3rem 1rem 1.1rem;
+    padding: 1.1rem 1rem 1rem;
     position: absolute;
     text-align: center;
 }
@@ -671,7 +671,7 @@ body.krock {
     margin-top: -2rem;
 }
 .krock #article {
-    border-top: 2px solid #ff0000;
+    border-top: 2px solid #ccc;
     padding-top: 2rem;
 }
 .krock #article p {
@@ -681,7 +681,7 @@ body.krock {
     background: none;
 }
 .krock #article a.nav-link.active {
-    color: #ffffff !important;
+    color: #777a !important;
 }
 .krock #article .participants {
     margin-bottom: 2rem;
@@ -701,7 +701,7 @@ body.krock {
 }
 .krock #footer {
     background: #000;
-    border-top: 2px solid #ff0000;
+    border-top: 2px solid #ccc;
 }
 .krock #footer .row>div:nth-child(2) img,
 .krock #footer .row>div:nth-child(4) img {
