@@ -583,6 +583,10 @@ input.search_input::placeholder {
 .krock h1, .krock h2, .krock h3 {
     color: #ccc;
 }
+#krockFest h1 {
+    color: #ccc;
+    text-transform: none;
+}
 body.krock {
     background: #000000;
     background-attachment: fixed;
