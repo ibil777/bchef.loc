@@ -36,7 +36,7 @@
                         <a class="nav-link" href="#">фото</a>
                     </li>
                     <li class="nav-item col-1">
-                        <a class="nav-link" href="#nav-video">відео</a>
+                        <a class="nav-link" href="#">відео</a>
                     </li>
                     <li class="nav-item col-1">
                         <a class="nav-link" href="#">ЗМІ</a>
@@ -436,6 +436,12 @@
             wrapAround: true,
             pageDots: true
         });
+        var hash = window.location.hash;
+        alert (hash);
+        if (hash != "")
+            $('#nav-tab a[href="' + hash + '"]').tab('show');
+        else
+            $('#nav-tab a:first').tab('show');
     });
 </script>
 
